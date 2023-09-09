@@ -20,7 +20,7 @@ For using this template we have to update following values in  jenkinsfile:
             
 1. Create a Jenkins pipeline using this repository. Configure your jenkins pipeline to use this github repository accordingly.
 
-2. This jenkins pipeline contains a scheduled cronjob (weekly basis) using which will run to automate the backup process at regular intervals. This ensures that backups are performed consistently without manual intervention.
+2. This jenkins pipeline contains a scheduled cronjob (weekly basis) which will run to automate the backup process at regular intervals. This ensures that backups are performed consistently without manual intervention.
 
 3. Jenkins pipeline for backup is utilizing the Apigee Command Line Interface (Apigeecli) to export the identified Apigee resources. Apigeecli allows to interact with the Apigee API and export configurations and definitions.
 
